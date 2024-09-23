@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Space+Grotesk:wght@300..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+// font
+
+$font-comfortaa: "Comfortaa", san-serif;
+$font-Playfair: "Playfair", san-serif;
+
+// spacing 
+
+$indent__base: 16px;
+$indent__s: $indent__base / 2; //8px
+$indent__m: $indent__base * 1.5; //24px
+$indent__l: $indent__base * 2; //32px
+$indent__xl: $indent__base * 3; //48px
+$indent__xxl: $indent__base * 4; //64px
+$indent__xxxl: $indent__base * 5; //80px
+
+//color
+
+$color-white: #c4bcc4;
+$color-yellow: #f9f6cc;
+$color-green: #e0f9ce;
+$color-blue: #e3e5fc;
+$color-red: #efb2b2;
+$color-purple: #eec3ef;
+$color-orange:#fdbf74;
+$color-lightgray: #eae9e6;
+$color-pink: #fed2fe; 
+$color-dark-pink: #ff66ae;
+
+//colors for basic useage
+
+$primary__text: $color-purple;
+$primary__background: $color-yellow;
+
+// screen size
+
+$bp-mobile: 375px;
+$bp-tablet: 768px;
+$bp-desktop: 991px; 
+$container-max: 1300px;
